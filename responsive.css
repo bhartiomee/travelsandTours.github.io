@@ -1,0 +1,176 @@
+html{
+    width: 100vw;
+    overflow-x: hidden;
+  }
+/* UTILITY CLASSES */
+.headings{
+    font-size: 28px;
+}
+.decoration{
+    letter-spacing: 0rem;
+}
+.head{
+    font-size: 10px;
+    letter-spacing: 0.25em;
+    text-shadow: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+  /* NAVBAR */
+.navbar{
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.3s  ease-out;
+}
+.nav-list{
+    flex-direction: column;
+    padding: 10px 0px;
+    width: 37%;
+}
+.nav-list li a{
+    margin: 20px;
+
+}
+.right-nav{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 17px;
+    padding-top: 0px;
+}
+.btn-sm{
+    margin-top: 8px;
+}
+
+/* TOP CONTAINER */
+
+.top::before{
+    height: 795px;
+}
+
+.top{
+    margin-top: 312px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 394px;
+}
+.para{
+    font-size: 1.9rem;
+    padding: 65px 25px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+
+
+/* SECOND CONTAINER */
+
+.second-container{
+    margin-top: 26px;
+    height: 466px;
+}
+.second-container ::before{
+    height: 524px;
+}
+.second{
+    padding: 30px 11px
+}
+#secPara{
+
+    font-size: 10px;
+}
+#secHead{
+    font-size: 57px;
+}
+
+/* MENU-CONTAINER */
+.menu{
+    padding: 41px 37px;
+    padding-bottom: 24px;
+    
+}
+.menu-container{
+    height: 1238px;
+}
+.packages{
+    display: flex;
+    flex-direction: column;
+}
+.res-height{
+    height: 261px;
+}
+.packages p{
+    margin: 114px 47px;
+}
+
+/* CONTACT BOX */
+.contact-container{
+    height: 517px;
+}
+.contact{
+    padding: 52px 7s1px;
+    padding-bottom: 38px;
+}
+
+.form-area{
+    /* border: 2px solid palegreen; */
+    width: 54%;
+}
+.form-area input,textarea{
+    
+    font-size: 1rem;
+}
+.form-group{
+    padding: 1px;
+}
+.submit{
+    width: 40px;
+}
+
+/* FIND-US SECTION */
+.findUs-container{
+    height: 610px;
+}
+.findUs-box{
+    flex-direction: column;
+}
+.title{
+    font-size: 2.5rem;
+}
+.topic{
+    margin: 1px 4px;
+}
+.details{
+    margin: 2px 0px;
+   
+}
+
+footer{
+    font-size: 10px;
+}
+
+
+.burger{
+    display: block;
+}
+
+.h-nav-resp{
+    height: 72px;
+    background-color: #1a4f65;
+}
+
+.v-class-resp{
+    opacity: 0;
+}
+.res-change-top{
+    margin-top: 64px;
+    height: 512px;
+}
+.res-change-secondContainer{
+    margin-top:146px;
+}
+
+

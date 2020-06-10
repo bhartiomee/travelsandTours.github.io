@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+    <title>Home page</title>
+</head>
+<style>
+    body{
+        background-color: black;
+    }
+    .container {
+        background-color: aqua;
+        border: 2px solid black;
+    }
+
+    /* NAVBAR OF TOP */
+    .navbar {
+        display: flex;
+        height: 63px;
+        width: 100%;
+        /* border: 2px solid green; */
+
+    }
+
+    .navbar ul {
+        display: flex;
+        list-style: none;
+        text-align: center;
+        float: right;
+        padding-left: 643px;
+
+    }
+
+    .navbar ul a {
+        text-decoration: none;
+        padding: 20px;
+        color: #ffffff;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-weight: bold;
+        font-size: 1.3rem;
+
+    }
+
+    .navbar ul a:hover {
+        background-color: skyblue;
+        cursor: pointer;
+        font-size: 1.5rem;
+
+    }
+
+    .navbar ul a:active {
+        color: cornflowerblue;
+        font-size: 1.5rem;
+    }
+
+    /* LOGO STYLE */
+    .image {
+        display: flex;
+        /* border: 2px solid blue; */
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    .logo {
+        height: 44px;
+        width: 54px;
+        padding: 10px;
+        border-radius: 50%;
+    }
+
+    .logo:hover {
+        background-color: blanchedalmond;
+    }
+</style>
+
+<body>
+    <div class="navbar">
+        <div class="image">
+            <img class="logo" src="instalogo.jpeg" alt="travelandtours">
+            <img class="logo" src="fblogo.png" alt="travelandtours">
+            <img class="logo" src="tweetlogo.png" alt="travelandtours">
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Guide</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </div>
+    <div class="homepage">
+        <div class="container">this is Services</div>
+        <div class="container">this is Services</div>
+        <div class="container">this is Services</div>
+        <div class="container">this is Services</div>
+    </div>
+
+</body>
+
+</html>
